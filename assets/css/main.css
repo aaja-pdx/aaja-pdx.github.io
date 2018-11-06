@@ -109,7 +109,7 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-re
 
 /* Type */
 body, input, select, textarea {
-  color: #7f888f;
+  color: #2c2f32;
   font-family: "PT Serif", serif;
   font-size: 13pt;
   font-weight: 400;
@@ -1524,7 +1524,7 @@ input[type=radio] {
 input[type=checkbox] + label,
 input[type=radio] + label {
   text-decoration: none;
-  color: #7f888f;
+  color: #2c2f32;
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
@@ -2479,7 +2479,7 @@ button:disabled,
   -webkit-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
   transform: scaleX(-1);
-  color: #7f888f;
+  color: #2c2f32;
   content: "";
   cursor: default;
   display: block;
@@ -2658,14 +2658,14 @@ button:disabled,
     width: 7.25em;
   }
   #sidebar .toggle:before {
-    color: #7f888f;
+    color: #2c2f32;
     margin-left: -0.0625em;
     margin-top: -0.25em;
     font-size: 1.1rem;
     z-index: 1;
   }
   #sidebar .toggle:after {
-    background: rgba(222, 225, 226, 0.75);
+    background: rgba(129, 136, 144, 0.75);
     border-radius: 0.375em;
     content: "";
     height: 3.5em;
